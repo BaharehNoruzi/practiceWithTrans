@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main>div {
+    float: left;
+}
+
+button{
+    background-color: red;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 28%;
+}
+
+#leftSide {
+    z-index: 0;
+    position: relative;
+    width: 30%;
+    border: 1px solid black;
+    padding: 30px;
+    margin-right: 5px;
+}
+
+#rightSide {
+    width: 50%;
+    border: 1px solid black;
+    padding: 30px;
+}
